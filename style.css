@@ -46,3 +46,8 @@ body{
     background-color: rgb(14, 74, 106);
 }
 
+#qrimg{
+    display: block;
+    margin: 1% auto;
+    padding: 2%;
+}
