@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header{
@@ -21,6 +22,7 @@ body{
 .main{
     width: 50%;
     margin: auto;
+    text-align: left;
 }
 
 .scanning-img{
@@ -28,5 +30,19 @@ body{
     float: right;
     width: 35%;
     margin-left: 10%;
+}
+
+.inputs{
+    width: 50%;
+    height: 2rem;
+}
+
+.submit{
+    background-color: rgb(20, 144, 211);
+    color:white;
+}
+
+.submit:hover{
+    background-color: rgb(14, 74, 106);
 }
 
