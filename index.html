@@ -24,9 +24,9 @@
 
         <h3>Enter your URL below to generate a QR Code and download the image.😊</h3>
 
-        <textarea placehoder="your text...."  name="" id="qrtext" cols="50" rows="3"></textarea>
+        <textarea placeholder="your text...."  name="" id="qrtext" cols="50" rows="3"></textarea>
         <br><br>
-        <select class="inputs" name="" id="size">
+        <select class="inputs" id="size">
             <option value="100">100x100</option>
             <option value="150">150x150</option>
             <option value="200" selected>200x200</option>
@@ -34,14 +34,12 @@
             <option value="300">300x300</option>
         </select>
         <br><br>
-        <input class="inputs submit" type="submit" name="" value="Generate QR Code" onClick="genQR()">
-
+        <button class="submit" onClick="genQR()">Generate QR Code</button>
 
      </div>
 
      <div id="generated">
         <img src="" id="qrimg">
-        <!-- <button c>Download</button> -->
      </div>
      <script src="js/FileSaver.js"></script>
      <script src="js/index.js"></script>
